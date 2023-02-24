@@ -1,6 +1,7 @@
 <h3 align="center">nodemagick-docker</h3>
-<p align="center">Docker image for node application with ImageMagick preinstalled</p>
+<p align="center">Docker image for node applications with ImageMagick preinstalled</p>
 
+## About
 
 This image is based on [node:lts-alpine](https://hub.docker.com/_/node) and installs the latest version of [ImageMagick](https://github.com/ImageMagick/ImageMagick) with LQR.
 
