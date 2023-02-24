@@ -27,3 +27,7 @@ RUN curl https://codeload.github.com/ImageMagick/ImageMagick/tar.gz/7.1.0-62 | t
   make install && \
   cd .. && \
   rm -R ImageMagick-7.1.0-62
+
+LABEL org.opencontainers.image.source="https://github.com/thedatasnok/nodemagick-docker"
+LABEL org.opencontainers.image.description="Node LTS with ImageMagick and liblqr"
+LABEL org.opencontainers.image.licenses="MIT"
